@@ -17,8 +17,8 @@
     <div class="row">
         <div class="col-12">
             <div class="d-none d-sm-inline">
-                <div class="alert alert-warning mb-0">
-                    <strong>Sales Now On! </strong>Limited space available.</strong> 
+                <div class="alert alert-warning mb-0 text-center">
+                    <strong>Sales Now On! </strong>Limited space available.</strong>
                     <a href="#" class="alert-link">Click here to register!</a>
                 </div>
             </div>
@@ -26,11 +26,36 @@
     </div>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a href="/" class="navbrar-brand">Craft Beer Tasting</a>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
-            <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign in | Sign up</a></li>
-        </ul>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDrodown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
+
+                <li class="nav-item dropdown">
+                    <a href="" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Craft Beers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="#" class="dropdown-item">Irish</a>
+                        <a href="#" class="dropdown-item">British</a>
+                        <a href="#" class="dropdown-item">Germany</a>
+                        <a href="#" class="dropdown-item">Spain</a>
+                        <a href="#" class="dropdown-item">US</a>
+                    </div>
+                </li>
+
+                <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign in | Sign up</a></li>
+            </ul>
+
+        </div>
+
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>A variety of beer styles to suit all tastes.</i></p>
             <a href="/login">Sign in | Sign up</a>
@@ -179,7 +204,18 @@
         </footer>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2564f6ed16.js" crossorigin="anonymous"></script>
 </body>
 
