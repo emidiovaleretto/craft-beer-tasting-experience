@@ -54,3 +54,47 @@ ol, ul {
 .block-divider__short {
     width: 35px;
 }
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #A7A7A7;
+}
+
+.jumbotron small {
+    font-size: 65%;
+    color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn__cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn__red {
+    color: #fff;
+    background-color: #f5bc1f;
+    border-color: #f5bc1f;
+}
+
+.btn__red:hover,
+.btn__red:focus,
+.btn__red:active,
+.btn__red:active:focus {
+    background-color: #cb980f;
+    border-color: #cb980f;
+}
