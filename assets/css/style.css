@@ -172,3 +172,8 @@ ol, ul {
     background-color: #cb980f;
     border-color: #cb980f;
 }
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
