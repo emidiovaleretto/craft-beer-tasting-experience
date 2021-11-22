@@ -41,3 +41,16 @@ ol, ul {
 .testimonials-container {} */
 
 /* Block dividers */
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider__orange {
+    background: #f5bc1f;
+}
+
+.block-divider__short {
+    width: 35px;
+}
