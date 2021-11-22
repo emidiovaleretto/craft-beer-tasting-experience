@@ -21,13 +21,12 @@
     <div class="container-fluid navalert-container">
         <!-- Alert -->
         <div class="container-fluid alert-container">
-            <div class="row">
+            <div class="row d-none d-sm-block">
                 <div class="col-12">
-                    <div class="d-none d-sm-inline">
-                        <div class="site-wide-alert alert alert-warning text-center">
-                            <strong>Sales Now On! </strong>Limited spaces available.
-                            <a href="#" class="alert-link">Click here to register!</a>
-                        </div>
+                    <div class="site-wide-alert alert alert-warning text-center">
+                        <strong>Sales Now On! </strong>Limited spaces available.
+                        <a href="#" class="alert-link" data-toggle="modal" data-target="#signUpModal">Click here to
+                            register!</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +70,8 @@
 
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>A variety of beer styles to suit all tastes.</i></p>
-                <a href="/login" class="btn btn__cta btn__red text-white">Sign in | Sign up</a>
+                <a href="/login" class="btn btn__cta btn__yellow text-white" data-toggle="modal"
+                    data-target="#signUpModal">Sign in | Sign up</a>
             </div>
         </nav>
     </div>
@@ -91,7 +91,7 @@
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>Prices are from &#8364;35*</mark></strong>
                     </p>
-                    <button class="btn btn-lg btn__cta btn__red" data-toggle="modal" data-target="#signUpModal">Sign
+                    <button class="btn btn-lg btn__cta btn__yellow" data-toggle="modal" data-target="#signUpModal">Sign
                         Up!</button>
                     <p class="text-muted"><small><em>*You must be over 18 to sign up to our service. Please drink
                                 responsibility.</em></small></p>
@@ -114,7 +114,7 @@
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <div class="feature">
-                            <i class="fas fa-utensils d-none d-sm-inline"></i>
+                            <i class="fas fa-utensils d-none d-sm-block"></i>
                             <h3>Food</h3>
                             <p>Choices Include:</p>
                             <ul>
@@ -125,17 +125,14 @@
                                 <li>Scampi &Fries</li>
                                 <li>Fresh Wild mushrooms & Pasta</li>
                             </ul>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-4">
                         <div class="feature">
-                            <i class="fas fa-beer d-none d-sm-inline"></i>
+                            <i class="fas fa-beer d-none d-sm-block"></i>
                             <h3>Drink</h3>
-                            <p>A Sample of Various Irish/Celtic Craft beers will be sampled during the tasting
-                                session.
-                            </p>
+                            <p>A Sample of Various Irish Craft beers.</p>
                             <ul>
                                 <li>Scraggy Bay</li>
                                 <li>The Wicklow Brewery Stout</li>
@@ -144,16 +141,14 @@
                                 <li>Murphy’s Irish Stout</li>
                                 <li>Guinness: The king of Irish stouts</li>
                             </ul>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-4">
                         <div class="feature">
-                            <i class="fas fa-glass-cheers d-none d-sm-inline"></i>
+                            <i class="fas fa-glass-cheers d-none d-sm-block"></i>
                             <h3>Pub Crawl <span class="badge badge-success">NEW!</span></h3>
                             <p>Discover the most visited Irish pubs.</p>
-                            <p>We will be visiting the following pubs:</p>
                             <ul>
                                 <li>Grogan's</li>
                                 <li>The Brazen Head</li>
@@ -162,7 +157,6 @@
                                 <li>The Stags Head</li>
                                 <li>and the famous The Temple Bar</li>
                             </ul>
-                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                         </div>
                     </div>
                 </div>
@@ -184,10 +178,6 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="media">
-                            <div class="d-none d-md-block">
-                                <img src="./assets/images/image-1.jpg" class="rounded-circle mr-3" height="100"
-                                    width="100" alt="A man smilling at the camera and talking a self photo.">
-                            </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
                                     <p>This was one of the best experiences we’ve had in Dublin by far!
@@ -195,15 +185,15 @@
                                     <p>Michael F.</p>
                                 </blockquote>
                             </div>
+                            <div class="d-none d-md-block">
+                                <img src="./assets/images/guy-image.png" class="rounded-circle mr-3" height="100"
+                                    width="100" alt="A man smilling at the camera and talking a self photo.">
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="media">
-                            <div class="d-none d-md-block">
-                                <img src="./assets/images/image-2.jpg" class="rounded-circle mr-3" height="100"
-                                    width="100" alt="An older man smiling at the camera.">
-                            </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
                                     <p>I’m so glad I chose this place. I’ve had a great time and
@@ -212,15 +202,16 @@
                                     <p>John B.</p>
                                 </blockquote>
                             </div>
+                            <div class="d-none d-md-block">
+                                <img src="./assets/images/image-2.jpg" class="rounded-circle mr-3" height="100"
+                                    width="100" alt="A man drinking a beer.">
+                            </div>
+
                         </div>
                     </div>
 
                     <div class="col-12 d-md-none d-lg-block col-lg-4">
                         <div class="media">
-                            <div class="d-none d-md-block">
-                                <img src="./assets/images/image-3.jpg" class="rounded-circle mr-3" height="100"
-                                    width="100" alt="A portrait of a woman looking at the camera.">
-                            </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
                                     <p>Amazing! As a local, this was a great experience!
@@ -228,6 +219,10 @@
                                         again. Well worth it!</p>
                                     <p>Ciara T.</p>
                                 </blockquote>
+                            </div>
+                            <div class="d-none d-md-block">
+                                <img src="./assets/images/girl-image.png" class="rounded-circle mr-3" height="100"
+                                    width="100" alt="A portrait of a woman looking at the camera.">
                             </div>
                         </div>
                     </div>

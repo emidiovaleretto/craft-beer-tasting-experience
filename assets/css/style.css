@@ -7,6 +7,8 @@ body {
 
 ol, ul {
     list-style: none;
+    padding-left: 0;
+    margin-right: 10px;
 }
 
 /* Container Wrappers */
@@ -159,16 +161,16 @@ ol, ul {
     width: 160px;
 }
 
-.btn__red {
+.btn__yellow {
     color: #fff;
     background-color: #f5bc1f;
     border-color: #f5bc1f;
 }
 
-.btn__red:hover,
-.btn__red:focus,
-.btn__red:active,
-.btn__red:active:focus {
+.btn__yellow:hover,
+.btn__yellow:focus,
+.btn__yellow:active,
+.btn__yellow:active:focus {
     background-color: #cb980f;
     border-color: #cb980f;
 }
@@ -176,4 +178,20 @@ ol, ul {
 .feature {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.feature i {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.feature .btn {
+    background-color: #f5bc1f;
+    border-color: #f5bc1f;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;;
+    color: #fff;
 }
