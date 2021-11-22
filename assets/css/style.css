@@ -9,6 +9,13 @@ ol, ul {
     list-style: none;
 }
 
+/* Container Wrappers */
+
+.container-wrapper__red {
+    background-color: #f44336;
+    color: #fff;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -73,6 +80,10 @@ ol, ul {
 
 .block-divider__orange {
     background: #f5bc1f;
+}
+
+.block-divider__white {
+    background: #fff;
 }
 
 .block-divider__short {
